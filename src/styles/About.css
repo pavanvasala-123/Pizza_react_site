@@ -1,0 +1,14 @@
+.top_container{
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0px;
+}
+.bottom_container p{
+        padding:30px ;
+        height: 20vh;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+}

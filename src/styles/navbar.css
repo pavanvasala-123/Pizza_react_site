@@ -1,0 +1,80 @@
+.navbar{
+    height: 80px;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    width: 70px;
+    margin-left: 50px;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    margin-right: 80px;
+    width: 100%;
+}
+ul a {  
+    color: white;
+    margin-right: 15px;
+   text-decoration: none;
+   font-weight: bold;
+   
+}
+/* span{
+    position: relative;
+} */
+span p {
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    top:10px;
+    
+}
+.cart{
+    color: white;
+}
+.nav-links-con{
+    display: flex;
+    align-items: center;
+}
+.toggle_btn{
+    margin-right: 10px;
+    display: none;
+}
+.hidden_links{
+    display: none;
+    background-color: black;
+    height: 40px;
+    padding: 10px;
+    
+}
+.hidden_links a {
+    color: white;
+}
+
+
+
+/* media quires */
+
+@media only screen and (max-width :600px){
+    ul{
+        display: none;
+    }
+    .toggle_btn{
+        display: block;
+        margin-right: 50px;
+    }
+     #open{
+        display: block;
+       /* display: flex;
+       flex-direction: column; */
+    }
+    .logo{
+        margin-left: 10px;
+    }
+
+}

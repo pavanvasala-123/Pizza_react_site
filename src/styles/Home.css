@@ -1,0 +1,49 @@
+/* .home-continer{
+    width: 100%;
+} */
+.home{
+   background-repeat: no-repeat;
+   background-size: cover;
+   height:90vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-position: center;
+   
+
+}
+.ordernow_btn{
+    height: 40px;
+    width: 120px;
+    margin-top: 15px;
+    background-color: rgb(27, 25, 25);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+
+}
+.home_card-con{
+    color:whitesmoke;
+}
+
+@media only screen and (max-width:600px){
+    .home{
+        background-image: contain;
+        background-size: cover;
+      
+    }
+    .home_card-con{
+        background-color: rgb(61, 58, 58);
+        color: white;
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+} 
